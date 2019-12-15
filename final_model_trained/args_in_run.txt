@@ -1,0 +1,60 @@
+command line in run:
+BT_TRAIN_10/
+
+args in run:
+--data data/BT_TRAIN_10/
+--grayscale False
+--normalize False
+--hsv False
+--epochs 75
+--epoch_size 1000
+--batch_size 16
+--pretrained_model None
+--freeze_model False
+--dfunc l2
+--loss_ver 3
+--inter_margin 0.1
+--inter_weight 4
+--intra_weight 1
+--intra_secondary_weight 1
+--intra_margin_ratio 0
+--border_len_ignore 0
+--multi_channel_corr_weight 1
+--scale_consistency_weight 1
+--scale_consistency_max 2
+--scale_consistency_dfunc corr
+--rot_consistency_weight 0
+--rot_consistency_dfunc l12
+--in_channels 3
+--out_channels 3
+--channel_wise False
+--final_act None
+--final_conv 3x3
+--upmode bilinear
+--downmode maxpool
+--batch_norm False
+--depth 5
+--kernel_size 5
+--num_fmaps_1 32
+--num_fmaps_2 64
+--reflection_pad False
+--lr 1e-05
+--momentum 0.9
+--beta 0.999
+--weight_decay 0
+--workers 10
+--seed 2019
+--print_freq 100
+--print_freq_epoch 1
+--validation_freq 1
+--checkpoint_freq 10
+--DEBUG False
+--skip_validation False
+--manual_save_path None
+--with_task_val True
+--use_cpu False
+--pretrained_path None
+--pm_mode 0
+--std_vals [0.5, 0.5, 0.5]
+--mean_vals [0.5, 0.5, 0.5]
+--norm_mm_by_act []
