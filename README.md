@@ -1,9 +1,9 @@
-# Self-Supervised Unconstrained Illumination Invariant Representation
+# PhIT-Net: Photo-consistent Image Transform for Improved Matching
 
-This repository contains the code which implements the InvRepNet network and the training, test and inference scripts of this model.
-Presented in our [paper](https://arxiv.org/abs/1911.12641) "Self-Supervised Unconstrained Illumination Invariant Representation". The paper supplementary material is available [here](https://drive.google.com/file/u/6/d/1FLnPCfHz__AYkm_WtUwXqPHGq-dmCnzQ/view?usp=drive_open).
+This repository contains the code which implements the PhIT-Net and the training, test and inference scripts of this model.
+Presented in our [paper](https://arxiv.org/abs/1911.12641) "PhIT-Net: Photo-consistent Image Transform for Improved Matching". 
 
-## Running InvRepNet:
+## Running PhIT-Net:
 #### Requirements:
 The code is implemented in PyTorch 1.2.0 running on Python 3.7.2.
 \
@@ -39,7 +39,7 @@ python test_registration.py /path/to/the/test/data/ --pretrained_model /path/to/
 ```
 
 #### Inference:
-For running InvRepNet on a directory of images:
+For running PhIT-Net on a directory of images:
 ```bash
 python inference.py /path/to/the/input/images/dir/ --pretrained_model /path/to/the/pretrained/model/ --output --/path/to/the/output/images/dir/
 ```
@@ -51,7 +51,7 @@ The training model is based on triplet network with a triplet loss. The inferenc
 ![Model](readme_files/model.png)
 
 ## Architechture:
-InvRepNet is based on the encoder-decoder U-Net architecture.
+PhIT-Net is based on the encoder-decoder U-Net architecture.
 
 ![U-Net Architecture](readme_files/arch.png )
 
@@ -61,11 +61,13 @@ InvRepNet is based on the encoder-decoder U-Net architecture.
 ## Citation:
 If you find our work useful in your research, please cite our paper:
 ```bash
-@article{kaliroff2019self,
-  title={Self-Supervised Unconstrained Illumination Invariant Representation},
-  author={Kaliroff, Damian and Gilboa, Guy},
-  journal={arXiv preprint arXiv:1911.12641},
-  year={2019}
+@article{kaliroff2019phitnet,
+    title={PhIT-Net: Photo-consistent Image Transform for Improved Matching},
+    author={Damian Kaliroff and Guy Gilboa},
+    year={2019},
+    eprint={1911.12641},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
 }
 ```
 
