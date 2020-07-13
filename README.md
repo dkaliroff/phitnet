@@ -1,7 +1,7 @@
-# PhIT-Net: Photo-consistent Image Transform for Improved Matching
+# PhIT-Net: Photo-consistent Image Transform for Robust Illumination Invariant Matching
 
 This repository contains the code which implements the PhIT-Net and the training, test and inference scripts of this model.
-Presented in our [paper](https://arxiv.org/abs/1911.12641) "PhIT-Net: Photo-consistent Image Transform for Improved Matching". 
+Presented in our [paper](https://arxiv.org/abs/1911.12641) "PhIT-Net: Photo-consistent Image Transform for Robust Illumination Invariant Matching". 
 
 ## Running PhIT-Net:
 #### Requirements:
@@ -62,7 +62,7 @@ PhIT-Net is based on the encoder-decoder U-Net architecture.
 If you find our work useful in your research, please cite our paper:
 ```bash
 @article{kaliroff2019phitnet,
-    title={PhIT-Net: Photo-consistent Image Transform for Improved Matching},
+    title={PhIT-Net: Photo-consistent Image Transform for Robust Illumination Invariant Matching},
     author={Damian Kaliroff and Guy Gilboa},
     year={2019},
     eprint={1911.12641},
