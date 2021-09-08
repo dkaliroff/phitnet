@@ -10,7 +10,7 @@ blessings==1.7
 imageio==2.5.0
 joblib==0.13.2
 path.py==12.4.0
-Pillow==6.2.1
+Pillow==8.3.2
 progressbar33==2.4
 scikit_learn==0.22
 tensorboardX==1.9
