@@ -1,7 +1,7 @@
 # PhIT-Net: Photo-consistent Image Transform for Robust Illumination Invariant Matching
 
 This repository contains the code which implements the PhIT-Net and the training, test and inference scripts of this model.
-Presented in our [paper](https://arxiv.org/abs/1911.12641) "PhIT-Net: Photo-consistent Image Transform for Robust Illumination Invariant Matching". 
+Presented in our [paper](https://arxiv.org/abs/1911.12641) "PhIT-Net: Photo-consistent Image Transform for Robust Illumination Invariant Matching" (BMVC 2021).
 
 ## Running PhIT-Net:
 #### Requirements:
